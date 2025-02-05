@@ -306,4 +306,13 @@ wheels = [
 $ uv run hello.py
 python: 3.13.1 (main, Dec 19 2024, 14:22:59)\
     [Clang 18.1.8 ] requests: 2.32.3 status: 200
+    
+$ source .venv/bin/activate.fish
+
+(hello) $ python3 hello.py
+python: 3.13.1 (main, Dec 19 2024, 14:22:59)\
+    [Clang 18.1.8 ] requests: 2.32.3 status: 200
+
+(hello) $ which python3
+~/Development/uv-tutorial/hello/.venv/bin/python3
 ```
